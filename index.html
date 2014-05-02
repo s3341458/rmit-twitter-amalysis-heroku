@@ -1,0 +1,143 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>IntelliSurv</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" href="/favicon.ico">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- build:css styles/vendor.css -->
+        <!-- bower:css -->
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+        <!-- endbower -->
+        <!-- endbuild -->
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+        <!-- d3 js -->
+        <script src="bower_components/d3/d3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <div class="container">
+            <div class="header">
+                <ul class="nav nav-pills pull-right">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+                <h3 class="text-muted">IntelliSurv <br /> <small>Help you get results you want in an intelligent way!</small></h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- search box -->
+                    <form action="" method="post" id="#" name="#"  >
+                        <div class="input-group">
+                            <input type="text"  placeholder="Type any search terms..." name="searchbox" class="form-control" id="searchbox" data-toggle="tooltip" data-placement="top" title="Here you input what you are interested, then click search and we will return you the result you want!">
+                        <span class="input-group-btn">
+                            <input type="submit" class="button btn btn-default" value="Search" name="search" id="mc-embedded-subscribe">
+                        </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <a href="pieChart.html" class="btn btn-primary btn-lg center-block posColor" id="posBtn" title="This area shows the positive ratio of your search based on our intelligent analysis" data-toggle="tooltip" data-placement="left">
+                        <span class="glyphicon glyphicon-thumbs-up"></span>
+                        <hr />
+                        <h1 class="posRate">Pro percentage?</h1>
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <a href="#" class="btn btn-primary btn-lg center-block nagColor" id="negBtn" title="This area shows the positive ratio of your search based on our intelligent analysis" data-toggle="tooltip" data-placement="bottom">
+                        <span class="glyphicon glyphicon-thumbs-down"></span>
+                        <hr />
+                        <h1 class="negRate">Con percentage?</h1>
+                    </a>
+                </div>
+            </div>
+            <hr/>
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                    <h4 class="bg-info text-info text-center">Info Chart</h4>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <a href="#" data-toggle="tooltip" data-placement="left" title="Here is the pie chart for the analyzed result." id="pieChart">
+                            <div class="piechart"></div>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+                        <br/>
+                        <div class="legend" ></div>
+                    </div>
+                    <div class="col-lg-4 col-md-8 col-sm-8 col-xs-8">
+                        <br/>
+                        <div class="details"></div>
+                    </div>
+                </div>
+
+                <!--<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">-->
+                    <!--<div class="legend" style="display: none"></div>-->
+                <!--</div>-->
+                <!--<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">-->
+                    <!--<div class="details" style="display: none"></div>-->
+                <!--</div>-->
+
+            </div>
+            <div class="footer">
+                <p><span class="glyphicon glyphicon-heart"></span> from the Joydesigner team</p>
+            </div>
+
+        </div>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+        <!-- build:js scripts/plugins.js -->
+        <!--<script src="bower_components/bootstrap/js/affix.js"></script>-->
+        <!--<script src="bower_components/bootstrap/js/alert.js"></script>-->
+        <!--<script src="bower_components/bootstrap/js/dropdown.js"></script>-->
+        <script src="bower_components/bootstrap/js/tooltip.js"></script>
+        <!--<script src="bower_components/bootstrap/js/modal.js"></script>-->
+        <!--<script src="bower_components/bootstrap/js/transition.js"></script>-->
+        <!--<script src="bower_components/bootstrap/js/button.js"></script>-->
+        <!--<script src="bower_components/bootstrap/js/popover.js"></script>-->
+        <!--<script src="bower_components/bootstrap/js/carousel.js"></script>-->
+        <!--<script src="bower_components/bootstrap/js/scrollspy.js"></script>-->
+        <!--<script src="bower_components/bootstrap/js/collapse.js"></script>-->
+        <!--<script src="bower_components/bootstrap/js/tab.js"></script>-->
+        <!-- endbuild -->
+
+        <!-- build:js({app,.tmp}) scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
