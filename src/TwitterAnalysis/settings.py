@@ -7,6 +7,10 @@ PROJECT_PATH = os.path.abspath(PROJECT_PATH)
 TEMPLATE_PATH = os.path.join(PROJECT_PATH, 'templates')
 STATIC_PATH = os.path.join(PROJECT_PATH,'static')
 
+f = open("testlog", "wt+")
+f.write(STATIC_PATH)
+f.close()
+
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
