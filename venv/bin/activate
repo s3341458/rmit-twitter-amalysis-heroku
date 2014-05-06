@@ -39,7 +39,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/chengyu/Documents/python/python_twitter_analysis/venv"
+VIRTUAL_ENV="/Users/chengyu/Documents/python/twitter_analysis_heroku/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

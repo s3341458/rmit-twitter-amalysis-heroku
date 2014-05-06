@@ -32,7 +32,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/chengyu/Documents/python/python_twitter_analysis/venv"
+set -gx VIRTUAL_ENV "/Users/chengyu/Documents/python/twitter_analysis_heroku/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
