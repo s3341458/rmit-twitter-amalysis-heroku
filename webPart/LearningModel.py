@@ -16,7 +16,7 @@ import os
 
 
 fileDirectory = os.path.dirname(os.path.abspath(__file__))
-fileDirectory = os.path.pardir(fileDirectory)
+fileDirectory = os.path.dirname(fileDirectory)
 matrixFilePath = os.path.join(fileDirectory, "data/matrixForLearning")
 dictFilePath = os.path.join(fileDirectory, "data/dictionary")
 
