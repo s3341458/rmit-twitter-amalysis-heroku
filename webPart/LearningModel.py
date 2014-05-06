@@ -11,9 +11,19 @@ from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
 from tweepy import Stream
 import json
+import os
+
+
+
+fileDirectory = os.path.dirname(os.path.abspath(__file__))
+matrixFilePath = os.path.join(fileDirectory, "data/matrixForLearning")
+dictFilePath = os.path.join(fileDirectory, "data/dictionary")
+
+
+
 
 class NaiveBayesClassifierBernoulli:
-    def __init__(self, matrixFileName = "/Users/chengyu/Documents/python/data/matrixForLearning", dicFileName = "/Users/chengyu/Documents/python/data/dictionary"):
+    def __init__(self, matrixFileName = matrixFilePath, dicFileName = dictFilePath):
         self.X,self.Y = load_svmlight_file(matrixFileName)
         self.dictionary = pickle.load(open(dicFileName, "rb"))
         self.bernoulliNB = BernoulliNB()
