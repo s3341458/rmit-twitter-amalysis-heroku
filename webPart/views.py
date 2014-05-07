@@ -9,6 +9,7 @@ import decimal
 from LearningModel import NaiveBayesClassifierBernoulli
 from __init__ import NBB
 from datetime import date, timedelta
+import os
 
 
 fileDirectory = os.path.dirname(os.path.abspath(__file__))
