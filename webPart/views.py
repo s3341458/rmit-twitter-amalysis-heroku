@@ -10,6 +10,12 @@ from LearningModel import NaiveBayesClassifierBernoulli
 from __init__ import NBB
 from datetime import date, timedelta
 
+
+fileDirectory = os.path.dirname(os.path.abspath(__file__))
+fileDirectory = os.path.dirname(fileDirectory)
+# matrixFilePath = os.path.join(fileDirectory, "data/matrixForLearning")
+# dictFilePath = os.path.join(fileDirectory, "data/dictionary")
+
 def index(request):
 #     return HttpResponse("This is index")
     context = RequestContext(request) 
@@ -44,7 +50,9 @@ def index(request):
         dict_dump["topNegativeTweets"] = topNegativeTweets
     
     json_dump = json.dumps(dict_dump)
-    file = open("/Users/chengyu/Documents/python/python_twitter_analysis/src/static/data/test.json","wt")
+
+    jsonPath = os.path.join(fileDirectory,"data/test.json")
+    file = open(jsonPath,"wt")
     file.write(json_dump)
     file.close()
     
@@ -86,11 +94,11 @@ def regionDetail(request):
     
     
     json_dump = json.dumps(dict_dump)
-    file = open("/Users/chengyu/Documents/python/python_twitter_analysis/src/static/data/test.json","wt")
-    file.write(json_dump)
+
+    jsonPath = os.path.join(fileDirectory,"data/test.json")
+    file = open(jsonPath,"wt")
     file.close()
-    
-        
+     
     
     return render_to_response('app/regionDetail.html', context_dict, context)
         
