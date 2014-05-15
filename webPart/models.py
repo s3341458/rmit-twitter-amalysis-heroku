@@ -21,13 +21,14 @@ class TweetsSentiment(models.Model):
     tweetID = models.BigIntegerField(default = 0,unique = True)
     tweetUserID = models.BigIntegerField(default = 0)
     sentimentLabel = models.IntegerField(default = 0)
+    sentimentScore = models.FloatField(default = 0)
     lang = models.CharField(max_length=4)
     latitude = models.DecimalField(null = True,max_digits=19, decimal_places=10)
     longtitude = models.DecimalField(null = True,max_digits=19, decimal_places=10)
     query = models.ForeignKey(Query, null=True)
     region = models.ForeignKey(Region, null=True)
     date = models.IntegerField(default = 0)
-    #since 2014-3-16
+    #since 2014-5-9
     queryNum = models.IntegerField(default = 0)
     JsonString = models.TextField(default = "")
     

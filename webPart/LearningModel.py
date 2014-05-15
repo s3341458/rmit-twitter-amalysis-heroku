@@ -3,9 +3,12 @@ Created on 01/03/2014
 
 @author: chengyu
 '''
+
+
 from sklearn.datasets import load_svmlight_file
 from sklearn.naive_bayes import BernoulliNB
-from  webPart import Parser
+# from  webPart import Parser
+import Parser
 import pickle
 from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
@@ -54,7 +57,7 @@ class NaiveBayesClassifierBernoulli:
 #             
     
 class NaiveBayesClassifierBernoulliListener(StreamListener):
-    def __init__(self, matrixFileName = "/Users/chengyu/Documents/python/data/matrixForLearning", dictFileName = "/Users/chengyu/Documents/python/data/dictionary"):
+    def __init__(self, matrixFileName = matrixFilePath, dictFileName = dictFilePath):
         self.naiveBayesClassifierBernoulli = NaiveBayesClassifierBernoulli(matrixFileName, dictFileName)
         self.matrixParser = Parser.MatrixParserForLearning()
         
@@ -71,7 +74,7 @@ if __name__ == "__main__":
     print NBB.classifyOneSentenceWithProbability("I loves You")
 
 
-# # Go to http://dev.twitter.com and create an app.
+# # Go to http://dev.twitter.com and crIdeaVim plugineate an app.
 # # The consumer key and secret will be generated for you after
 # consumer_key="OQrOsQkuiXFH5dUrCKHfvg"
 # consumer_secret="7pF6PH6PFGeBLlAHsxMbTGinw2bfYIw4aF6vwWsLok"

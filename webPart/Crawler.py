@@ -4,7 +4,7 @@ Created on 24/02/2014
 @author: chengyu
 '''
 
-
+import os
 from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
 from tweepy import Stream
@@ -17,6 +17,7 @@ from webPart.models import Region
 import time
 from datetime import date
 from LearningModel import NaiveBayesClassifierBernoulli
+from django.db import transaction, DatabaseError
 
 # OQrOsQkuiXFH5dUrCKHfvg
 # 7pF6PH6PFGeBLlAHsxMbTGinw2bfYIw4aF6vwWsLok
@@ -36,6 +37,12 @@ access_token_secret="TZUCXTGg2SRBplHPaTs0aht2gGIsIwaRX1v6hBRSfJrzj"
 
 positiveEmoticons = ":),:-),:),:D,=)"
 negativeEmoticons = ":(,:-(,: ("
+
+
+fileDirectory = os.path.dirname(os.path.abspath(__file__))
+fileDirectory = os.path.dirname(fileDirectory)
+matrixFilePath = os.path.join(fileDirectory, "data/matrixForLearning")
+dictFilePath = os.path.join(fileDirectory, "data/dictionary")
 
 class StdOutListener(StreamListener):
     """ A listener handles tweets are the received from the stream.
@@ -94,6 +101,7 @@ class DatabaseBaseSentimentListener(StreamListener):
                 tweetSentiment =  TweetsSentiment()
                 tweetSentiment.JsonString = repr(data)
                 tweetSentiment.sentimentLabel = self.classifier.classifyOneSentence( decodedJson["text"])
+                tweetSentiment.sentimentScore = self.classifier.classifyOneSentenceWithProbability( decodedJson["text"])
                 print decodedJson
                 print tweetSentiment.sentimentLabel
                 tweetSentiment.text = decodedJson["text"].lower()
@@ -114,8 +122,13 @@ class DatabaseBaseSentimentListener(StreamListener):
                             tweetSentiment.region = region  
     #                
                 
-            
-                tweetSentiment.save()
+                try:
+                    tweetSentiment.save()
+                except DatabaseError:
+                    transaction.rollback()
+
+
+
         except Exception as e:
             print e
     
@@ -130,6 +143,10 @@ class DatabaseBaseSentimentListener(StreamListener):
 #         stream.filter(track=self.trackFeatures,languages = ['en'],locations = [-122.75,36.8,-121.75,37.8])
 #         stream.filter(track=self.trackFeatures,languages = ['en'],locations = [-122.75,36.8,-121.75,37.8] )
 
+def start():
+    l = DatabaseBaseSentimentListener(matrixFilePath,dictFilePath)
+    l.startListen()
+
 
 if __name__ == '__main__':
 #     l = FileOutListener('/Users/chengyu/Documents/python/data/negativeTweetsForTrainingNew')
@@ -142,8 +159,8 @@ if __name__ == '__main__':
 #       
 # #     stream.filter(track=["Iphone"], locations=[-122.75,36.8,-121.75,37.8])
 #     stream.filter(track=["Iphone"], locations=[113.90625,-43.665217,157.148438,-13.35399])
-    l = DatabaseBaseSentimentListener("/Users/chengyu/Documents/python/data/matrixForLearning","/Users/chengyu/Documents/python/data/dictionary")
-    l.startListen()
-
+#     l = DatabaseBaseSentimentListener(matrixFilePath,dictFilePath)
+#     l.startListen()
+      start()
     
 

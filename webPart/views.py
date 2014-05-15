@@ -34,8 +34,8 @@ def index(request):
         tweetsRelated = TweetsSentiment.objects.filter(text__contains=query)
 
         context_dict["number"] = len(tweetsRelated)
-        positiveTweets = tweetsRelated.filter(sentimentLabel = 1)
-        negativeTweets = tweetsRelated.filter(sentimentLabel = -1)
+        positiveTweets = tweetsRelated.filter(sentimentLabel = 1).order_by("sentimentScore")
+        negativeTweets = tweetsRelated.filter(sentimentLabel = -1).order_by("-sentimentScore")
          
         ratio = TweetsRatio(positiveTweets, negativeTweets)
          
@@ -43,13 +43,19 @@ def index(request):
          
         positiveCountRegion = TweetsRegion(positiveTweets)
         negativeCountRegion = TweetsRegion(negativeTweets)
-        topPositiveTweets = TopTweets(positiveTweets, True, 10)
-        topNegativeTweets = TopTweets(negativeTweets, False, 10)
+        topPositiveTweets = TopTweets(positiveTweets)
+        topNegativeTweets = TopTweets(negativeTweets)
         dict_dump["positiveCountRegion"] = positiveCountRegion
         dict_dump["negativeCountRegion"] = negativeCountRegion
         dict_dump["topPositiveTweets"] = topPositiveTweets
         dict_dump["topNegativeTweets"] = topNegativeTweets
-    
+
+
+    logPath = os.path.join(fileDirectory,"testlog")
+    filelog = open(logPath, "wt+")
+    filelog.write(repr(dict_dump))
+    filelog.close()
+
     json_dump = json.dumps(dict_dump)
 
     jsonPath = os.path.join(fileDirectory,"data/test.json")
@@ -68,8 +74,8 @@ def regionDetail(request):
     
     query = request.session["query"]
     tweetsRelated = TweetsSentiment.objects.filter(text__contains=query)
-    negativeTweets = tweetsRelated.filter(sentimentLabel = -1)
-    positiveTweets = tweetsRelated.filter(sentimentLabel = 1)
+    negativeTweets = tweetsRelated.filter(sentimentLabel = -1).order_by("-sentimentScore")
+    positiveTweets = tweetsRelated.filter(sentimentLabel = 1).order_by("sentimentScore")
     context_dict = {}
     
     dict_dump["ratio"] = TweetsRatio(positiveTweets, negativeTweets)
@@ -82,14 +88,13 @@ def regionDetail(request):
   
         context_dict["label"] = "positive"
         cash = TweetsRegion(positiveTweets)
-        topTweets = TopTweets(positiveTweets, True, 10, NBB)
-                  
+        topTweets = TopTweets(positiveTweets)
+        # topTweets = positiveTweets[0:10]
     else  :
         
         context_dict["label"] = "negative"
         cash = TweetsRegion(negativeTweets)
-        topTweets = TopTweets(negativeTweets, False, 10, NBB)
-        
+        topTweets = TopTweets(negativeTweets)
     dict_dump["cash"] = cash
     dict_dump["top"] = topTweets
     
@@ -98,6 +103,7 @@ def regionDetail(request):
 
     jsonPath = os.path.join(fileDirectory,"data/test.json")
     file = open(jsonPath,"wt")
+    file.write(json_dump)
     file.close()
      
     
@@ -120,35 +126,38 @@ def TweetsRegion(tweets):
         tweetsOfRegionArray.append(dict)
     return tweetsOfRegionArray
 
-def TopTweets(tweets,isPos,num = 10,NBB = NaiveBayesClassifierBernoulli()):
-    
-    tweetsNum = len(tweets)
-    i = 0
-     
-    recordDict = {}
-    while i < tweetsNum:
-#         if positiveTweets[i].text.find(" not ") == False:
-        pro = NBB.classifyOneSentenceWithProbability(tweets[i].text)
-        recordDict[i] = pro
-        i += 1
-        
-    rank = sorted(recordDict, key=recordDict.__getitem__, reverse=isPos)
-    
-    if len(rank) > num:
-        rank = rank[:num]
-    topTweets = []
-   
-    for i in rank:
-        string = " \"" + tweets[i].text
-        string += "\""
-        if tweets[i].region != None: string += " from " + tweets[i].region.regionName
-        string += " on " 
-        dateStart = date(2014, 3, 15)
-        dateTweet = dateStart + timedelta(days=tweets[i].date)
-        string += str(dateTweet)
-        topTweets.append(string)
-    
-    return topTweets
+def TopTweets(tweets,num = 10):
+    topTweets = tweets[0:num]
+    returnContent = []
+    for tweet in topTweets: returnContent.append(tweet.text)
+    return returnContent
+#     tweetsNum = len(tweets)
+#     i = 0
+#
+#     recordDict = {}
+#     while i < tweetsNum:
+# #         if positiveTweets[i].text.find(" not ") == False:
+#         pro = NBB.classifyOneSentenceWithProbability(tweets[i].text)
+#         recordDict[i] = pro
+#         i += 1
+#
+#     rank = sorted(recordDict, key=recordDict.__getitem__, reverse=isPos)
+#
+#     if len(rank) > num:
+#         rank = rank[:num]
+#     topTweets = []
+#
+#     for i in rank:
+#         string = " \"" + tweets[i].text
+#         string += "\""
+#         if tweets[i].region != None: string += " from " + tweets[i].region.regionName
+#         string += " on "
+#         dateStart = date(2014, 3, 15)
+#         dateTweet = dateStart + timedelta(days=tweets[i].date)
+#         string += str(dateTweet)
+#         topTweets.append(string)
+#
+#     return topTweets
 
     
     

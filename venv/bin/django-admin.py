@@ -1,4 +1,4 @@
-#!/Users/chengyu/Documents/python/hellodjango/venv/bin/python
+#!/Users/chengyu/Documents/python/twitter_analysis_heroku/venv/bin/python
 from django.core import management
 
 if __name__ == "__main__":

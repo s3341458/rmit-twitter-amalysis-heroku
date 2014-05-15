@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5eadf9fd-82d5-4c85-a689-7835c83c37c4" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/negative.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/positive.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/main.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/positiveMiniSample" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/Crawler/__init__.py" afterPath="" />
@@ -552,6 +554,387 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/webPart/tests.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/webPart/urls.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/webPart/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/Django-1.6.3.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/Django-1.6.3.dist-info/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/Django-1.6.3.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/Django-1.6.3.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/Django-1.6.3.dist-info/WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/Django-1.6.3.dist-info/pydist.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/Django-1.6.3.dist-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dj_database_url-0.3.0.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dj_database_url-0.3.0.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dj_database_url-0.3.0.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dj_database_url-0.3.0.dist-info/WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dj_database_url-0.3.0.dist-info/pydist.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dj_database_url-0.3.0.dist-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/static-1.0.2-py2.7.egg-info/PKG-INFO" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/static-1.0.2-py2.7.egg-info/SOURCES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/static-1.0.2-py2.7.egg-info/dependency_links.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/static-1.0.2-py2.7.egg-info/entry_points.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/static-1.0.2-py2.7.egg-info/installed-files.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/static-1.0.2-py2.7.egg-info/requires.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/static-1.0.2-py2.7.egg-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/static/VERSION" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/static/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/static/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/static/cli.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/cs/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/cs/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/es_MX/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/es_MX/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/et/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/et/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/ga/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/ga/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/ml/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/ml/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/mn/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/mn/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/nl/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/nl/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/nn/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/nn/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/uk/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/uk/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/cs/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/cs/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/eo/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/eo/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/es/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/es/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/es_MX/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/es_MX/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/et/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/et/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/eu/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/eu/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/hi/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/hi/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/is/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/is/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/it/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/it/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/ja/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/ja/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/lt/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/lt/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/mk/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/mk/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/mn/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/mn/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/nb/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/nb/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/nn/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/nn/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/os/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/os/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/pl/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/pl/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/pt/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/pt/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/pt_BR/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/pt_BR/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/ru/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/ru/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/sk/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/sk/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/sl/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/sl/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/sw/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/sw/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/tr/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/tr/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/vi/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/vi/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/zh_CN/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/zh_CN/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/zh_TW/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/zh_TW/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admindocs/locale/da/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admindocs/locale/da/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admindocs/locale/et/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admindocs/locale/et/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admindocs/locale/mn/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admindocs/locale/mn/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admindocs/locale/sk/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admindocs/locale/sk/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/locale/cs/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/locale/cs/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/locale/mk/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/locale/mk/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/locale/mn/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/locale/mn/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/locale/sw/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/locale/sw/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/locale/uk/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/locale/uk/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/comments/locale/es_MX/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/comments/locale/es_MX/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/comments/locale/et/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/comments/locale/et/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/comments/locale/nl/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/comments/locale/nl/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/comments/locale/ru/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/comments/locale/ru/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/comments/locale/sk/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/comments/locale/sk/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/formtools/locale/da/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/formtools/locale/da/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/formtools/locale/et/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/formtools/locale/et/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/formtools/locale/mn/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/formtools/locale/mn/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/formtools/locale/sw/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/formtools/locale/sw/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ar/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ar/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/az/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/az/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/be/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/be/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/bg/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/bg/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/bn/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/bn/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/br/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/br/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/bs/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/bs/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ca/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ca/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/cs/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/cs/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/cy/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/cy/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/da/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/da/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/de/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/de/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/el/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/el/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/en/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/en/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/en_GB/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/en_GB/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/eo/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/eo/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/es/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/es/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/es_AR/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/es_AR/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/es_MX/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/es_MX/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/et/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/et/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/eu/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/eu/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/fa/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/fa/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/fi/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/fi/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/fr/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/fr/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/fy_NL/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/fy_NL/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ga/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ga/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/gl/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/gl/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/he/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/he/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/hi/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/hi/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/hr/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/hr/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/hu/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/hu/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ia/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ia/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/id/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/id/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/is/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/is/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/it/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/it/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ja/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ja/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ka/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ka/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/kk/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/kk/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/km/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/km/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/kn/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/kn/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ko/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ko/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/lt/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/lt/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/lv/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/lv/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/mk/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/mk/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ml/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ml/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/mn/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/mn/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/my/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/my/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/nb/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/nb/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ne/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ne/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/nl/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/nl/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/nn/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/nn/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/os/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/os/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/pa/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/pa/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/pl/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/pl/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/pt/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/pt/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/pt_BR/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/pt_BR/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ro/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ro/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ru/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ru/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/sk/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/sk/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/sl/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/sl/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/sq/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/sq/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/sr/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/sr/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/sr_Latn/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/sr_Latn/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/sv/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/sv/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/sw/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/sw/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ta/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ta/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/te/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/te/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/th/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/th/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/tr/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/tr/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/tt/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/tt/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/uk/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/uk/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ur/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ur/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/vi/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/vi/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/zh_CN/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/zh_CN/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/zh_TW/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/zh_TW/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/messages/locale/sw/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/messages/locale/sw/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/redirects/locale/sw/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/redirects/locale/sw/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/sites/locale/sk/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/sites/locale/sk/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/sites/locale/sw/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/sites/locale/sw/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/sites/locale/uk/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/sites/locale/uk/LC_MESSAGES/django.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/sw/LC_MESSAGES/djangojs.mo" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/sw/LC_MESSAGES/djangojs.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webPart/Crawler.py" afterPath="$PROJECT_DIR$/webPart/Crawler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webPart/LearningModel.py" afterPath="$PROJECT_DIR$/webPart/LearningModel.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/__init__.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/__init__.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/backends/__init__.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/backends/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/models/fields/__init__.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/models/fields/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/templatetags/admin_urls.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/templatetags/admin_urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/backends.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/backends.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/core/files/base.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/core/files/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/backends/mysql/base.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/backends/mysql/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/backends/oracle/base.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/backends/oracle/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/backends/postgresql_psycopg2/base.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/backends/postgresql_psycopg2/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/backends/sqlite3/base.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/backends/sqlite3/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/middleware/cache.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/middleware/cache.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/management/commands/changepassword.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/management/commands/changepassword.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/test/client.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/test/client.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/staticfiles/management/commands/collectstatic.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/staticfiles/management/commands/collectstatic.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/core/management/commands/compilemessages.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/core/management/commands/compilemessages.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/gis/db/models/sql/compiler.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/gis/db/models/sql/compiler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/models/sql/compiler.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/models/sql/compiler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/core/mail/backends/console.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/core/mail/backends/console.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/views/generic/dates.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/views/generic/dates.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/views/debug.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/views/debug.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/views/generic/detail.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/views/generic/detail.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/dispatch/dispatcher.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/dispatch/dispatcher.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dj_database_url.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/dj_database_url.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/django-admin.py" afterPath="$PROJECT_DIR$/venv/bin/django-admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/cs/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/cs/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/de/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/de/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/es_MX/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/es_MX/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/et/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/et/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/ga/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/ga/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/ml/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/ml/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/mn/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/mn/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/nl/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/nl/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/nn/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/nn/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/uk/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/locale/uk/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/cs/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/cs/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/de/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/de/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/eo/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/eo/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/es/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/es/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/es_MX/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/es_MX/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/et/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/et/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/eu/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/eu/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/hi/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/hi/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/is/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/is/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/it/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/it/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/ja/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/ja/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/lt/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/lt/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/mk/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/mk/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/mn/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/mn/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/nb/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/nb/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/nn/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/nn/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/os/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/os/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/pl/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/pl/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/pt/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/pt/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/pt_BR/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/pt_BR/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/ru/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/ru/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/sk/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/sk/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/sl/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/sl/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/sw/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/sw/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/tr/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/tr/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/vi/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/vi/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/zh_CN/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/zh_CN/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/zh_TW/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/zh_TW/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admindocs/locale/da/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admindocs/locale/da/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admindocs/locale/de/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admindocs/locale/de/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admindocs/locale/et/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admindocs/locale/et/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admindocs/locale/mn/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admindocs/locale/mn/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admindocs/locale/sk/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admindocs/locale/sk/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/locale/cs/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/locale/cs/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/locale/de/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/locale/de/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/locale/mk/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/locale/mk/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/locale/mn/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/locale/mn/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/locale/sw/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/locale/sw/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/locale/uk/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/locale/uk/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/comments/locale/es_MX/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/comments/locale/es_MX/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/comments/locale/et/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/comments/locale/et/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/comments/locale/nl/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/comments/locale/nl/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/comments/locale/ru/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/comments/locale/ru/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/comments/locale/sk/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/comments/locale/sk/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/formtools/locale/da/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/formtools/locale/da/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/formtools/locale/de/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/formtools/locale/de/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/formtools/locale/et/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/formtools/locale/et/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/formtools/locale/mn/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/formtools/locale/mn/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/formtools/locale/sw/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/formtools/locale/sw/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ar/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ar/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/az/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/az/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/be/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/be/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/bg/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/bg/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/bn/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/bn/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/br/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/br/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/bs/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/bs/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ca/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ca/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/cs/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/cs/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/cy/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/cy/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/da/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/da/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/de/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/de/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/el/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/el/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/en/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/en/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/en_GB/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/en_GB/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/eo/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/eo/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/es/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/es/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/es_AR/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/es_AR/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/es_MX/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/es_MX/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/et/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/et/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/eu/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/eu/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/fa/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/fa/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/fi/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/fi/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/fr/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/fr/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/fy_NL/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/fy_NL/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ga/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ga/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/gl/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/gl/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/he/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/he/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/hi/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/hi/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/hr/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/hr/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/hu/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/hu/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ia/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ia/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/id/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/id/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/is/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/is/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/it/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/it/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ja/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ja/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ka/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ka/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/kk/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/kk/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/km/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/km/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/kn/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/kn/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ko/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ko/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/lt/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/lt/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/lv/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/lv/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/mk/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/mk/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ml/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ml/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/mn/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/mn/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/my/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/my/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/nb/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/nb/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ne/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ne/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/nl/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/nl/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/nn/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/nn/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/os/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/os/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/pa/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/pa/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/pl/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/pl/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/pt/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/pt/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/pt_BR/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/pt_BR/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ro/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ro/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ru/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ru/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/sk/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/sk/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/sl/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/sl/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/sq/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/sq/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/sr/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/sr/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/sr_Latn/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/sr_Latn/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/sv/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/sv/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/sw/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/sw/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ta/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ta/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/te/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/te/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/th/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/th/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/tr/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/tr/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/tt/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/tt/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/uk/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/uk/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ur/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/ur/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/vi/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/vi/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/zh_CN/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/zh_CN/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/zh_TW/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/locale/zh_TW/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/messages/locale/sw/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/messages/locale/sw/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/redirects/locale/sw/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/redirects/locale/sw/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/sites/locale/sk/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/sites/locale/sk/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/sites/locale/sw/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/sites/locale/sw/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/sites/locale/uk/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/sites/locale/uk/LC_MESSAGES/django.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/core/checks/compatibility/django_1_6_0.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/core/checks/compatibility/django_1_6_0.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/sw/LC_MESSAGES/djangojs.po" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/locale/sw/LC_MESSAGES/djangojs.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/models/sql/expressions.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/models/sql/expressions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/gis/forms/fields.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/gis/forms/fields.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/forms/fields.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/forms/fields.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/core/mail/backends/filebased.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/core/mail/backends/filebased.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/staticfiles/finders.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/staticfiles/finders.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/forms/forms.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/forms/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/contenttypes/generic.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/contenttypes/generic.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/global_settings.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/conf/global_settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/hashers.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/hashers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/utils/html.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/utils/html.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/templatetags/humanize.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/humanize/templatetags/humanize.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/utils/image.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/utils/image.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/core/management/commands/inspectdb.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/core/management/commands/inspectdb.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/backends/oracle/introspection.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/backends/oracle/introspection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/core/management/commands/loaddata.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/core/management/commands/loaddata.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/middleware/locale.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/middleware/locale.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/views/main.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/views/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/core/management/commands/makemessages.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/core/management/commands/makemessages.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/core/mail/message.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/core/mail/message.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/forms/models.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/forms/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webPart/models.py" afterPath="$PROJECT_DIR$/webPart/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/options.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/options.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/gis/geos/prepared.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/gis/geos/prepared.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/gis/geoip/prototypes.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/gis/geoip/prototypes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/models/query.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/models/query.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/models/sql/query.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/models/sql/query.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/models/fields/related.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/models/fields/related.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/http/request.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/http/request.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/http/response.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/http/response.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/core/management/commands/runserver.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/core/management/commands/runserver.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/utils/safestring.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/utils/safestring.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TwitterAnalysis/settings.py" afterPath="$PROJECT_DIR$/TwitterAnalysis/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/utils/six.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/utils/six.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/core/mail/backends/smtp.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/core/mail/backends/smtp.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/bin/static" afterPath="$PROJECT_DIR$/venv/bin/static" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/staticfiles/storage.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/staticfiles/storage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/models/sql/subqueries.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/models/sql/subqueries.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/test.json" afterPath="$PROJECT_DIR$/data/test.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/tests/test_auth_backends.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/tests/test_auth_backends.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/gis/tests/test_geoforms.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/gis/tests/test_geoforms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/gis/geos/tests/test_geos.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/gis/geos/tests/test_geos.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/tests/test_hashers.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/tests/test_hashers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/tests/test_management.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/tests/test_management.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/tests/test_views.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/auth/tests/test_views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/gis/geoip/tests.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/gis/geoip/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/gis/tests/geoapp/tests.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/gis/tests/geoapp/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/utils/timezone.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/utils/timezone.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/transaction.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/transaction.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/core/urlresolvers.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/core/urlresolvers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/util.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/admin/util.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/core/management/utils.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/core/management/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/formtools/wizard/views.py" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/contrib/formtools/wizard/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webPart/views.py" afterPath="$PROJECT_DIR$/webPart/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="twitter_analysis_heroku.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -562,6 +945,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/twitter_analysis_heroku$test_package.coverage" NAME="test package Coverage Results" MODIFIED="1399967653253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/twitter_analysis_heroku$LearningModel.coverage" NAME="LearningModel Coverage Results" MODIFIED="1399709628218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webPart" />
+    <SUITE FILE_PATH="coverage/twitter_analysis_heroku$populate.coverage" NAME="populate Coverage Results" MODIFIED="1400052052690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webPart" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -574,13 +962,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LearningModel.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webPart/LearningModel.py">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webPart/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="32" selection-start="400" selection-end="400" vertical-scroll-proportion="0.37335286" vertical-offset="15" max-vertical-offset="1515">
-              <folding>
-                <element signature="e#48#95#0" expanded="true" />
-              </folding>
+            <state line="128" column="21" selection-start="4433" selection-end="4433" vertical-scroll-proportion="0.0" vertical-offset="1920" max-vertical-offset="2520">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testFunction.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webPart/testFunction.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TwitterAnalysis/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="6" selection-start="718" selection-end="718" vertical-scroll-proportion="0.38694993" vertical-offset="210" max-vertical-offset="2745">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="populate.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webPart/populate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="166" max-vertical-offset="615">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Crawler/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Crawler.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webPart/Crawler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="128" column="0" selection-start="4683" selection-end="4683" vertical-scroll-proportion="0.0" vertical-offset="1755" max-vertical-offset="2580">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="60" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="240">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wsgi.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TwitterAnalysis/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="28" selection-start="1341" selection-end="1341" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="570">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webPart/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="50" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="765">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testlog" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TwitterAnalysis/testlog">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -598,7 +1065,14 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/TwitterAnalysis/urls.py" />
+        <option value="$PROJECT_DIR$/webPart/urls.py" />
+        <option value="$PROJECT_DIR$/webPart/models.py" />
         <option value="$PROJECT_DIR$/webPart/LearningModel.py" />
+        <option value="$PROJECT_DIR$/test package.py" />
+        <option value="$PROJECT_DIR$/webPart/views.py" />
+        <option value="$PROJECT_DIR$/webPart/Crawler.py" />
+        <option value="$PROJECT_DIR$/TwitterAnalysis/settings.py" />
       </list>
     </option>
   </component>
@@ -606,7 +1080,7 @@
     <option name="x" value="20" />
     <option name="y" value="22" />
     <option name="width" value="1400" />
-    <option name="height" value="818" />
+    <option name="height" value="804" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -642,6 +1116,44 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twitter_analysis_heroku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twitter_analysis_heroku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twitter_analysis_heroku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twitter_analysis_heroku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webPart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twitter_analysis_heroku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twitter_analysis_heroku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TwitterAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -651,8 +1163,74 @@
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../testpath" />
+    <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
-  <component name="RunManager" selected="Django server.twitter_analysis_heroku">
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.populate">
+    <configuration default="false" name="LearningModel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webPart" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="twitter_analysis_heroku" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/webPart/LearningModel.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test package" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="twitter_analysis_heroku" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test package.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="populate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webPart" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="twitter_analysis_heroku" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/webPart/populate.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -849,11 +1427,38 @@
       <option name="customRunCommand" value="" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Django server.twitter_analysis_heroku" />
+      <item index="1" class="java.lang.String" itemvalue="Python.LearningModel" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test package" />
+      <item index="3" class="java.lang.String" itemvalue="Python.populate" />
     </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.populate" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test package" />
+        <item index="2" class="java.lang.String" itemvalue="Python.LearningModel" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5eadf9fd-82d5-4c85-a689-7835c83c37c4" name="Default" comment="" />
@@ -863,7 +1468,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="22" width="1400" height="818" extended-state="0" />
+    <frame x="20" y="22" width="1400" height="804" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -875,7 +1480,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -903,21 +1508,320 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webPart/LearningModel.py">
+    <entry file="file://$PROJECT_DIR$/TwitterAnalysis/testlog">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1395">
-          <folding>
-            <element signature="e#48#95#0" expanded="true" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webPart/LearningModel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="32" selection-start="400" selection-end="400" vertical-scroll-proportion="0.37335286" vertical-offset="15" max-vertical-offset="1515">
-          <folding>
-            <element signature="e#48#95#0" expanded="true" />
-          </folding>
+        <state line="18" column="0" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1560" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwitterAnalysis/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="12" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwitterAnalysis/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="22" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="2700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="30" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/Crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="32" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="2430">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="53" selection-start="124" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="50" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/LearningModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1530" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwitterAnalysis/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="12" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwitterAnalysis/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="19" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="2700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="30" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/Crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="65" selection-start="5763" selection-end="5763" vertical-scroll-proportion="0.0" vertical-offset="2265" max-vertical-offset="2430">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="50" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/LearningModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="20" selection-start="2186" selection-end="2186" vertical-scroll-proportion="0.0" vertical-offset="798" max-vertical-offset="1530" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwitterAnalysis/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="12" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwitterAnalysis/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="19" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="2700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="30" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/Crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="65" selection-start="5763" selection-end="5763" vertical-scroll-proportion="0.0" vertical-offset="2265" max-vertical-offset="2430">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="50" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/LearningModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="783" max-vertical-offset="1530" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwitterAnalysis/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="12" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwitterAnalysis/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="19" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="2700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="30" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/Crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="65" selection-start="5763" selection-end="5763" vertical-scroll-proportion="0.0" vertical-offset="2265" max-vertical-offset="2430">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="50" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/LearningModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="0" selection-start="2497" selection-end="2497" vertical-scroll-proportion="0.0" vertical-offset="1095" max-vertical-offset="1530" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwitterAnalysis/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="12" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="30" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/Crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2325">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="50" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/LearningModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1395" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/core/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="60" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwitterAnalysis/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="28" selection-start="1341" selection-end="1341" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="30" selection-start="175" selection-end="175" vertical-scroll-proportion="-4.8" vertical-offset="0" max-vertical-offset="255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="128" column="21" selection-start="4433" selection-end="4433" vertical-scroll-proportion="0.0" vertical-offset="1920" max-vertical-offset="2520">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="50" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwitterAnalysis/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="12" selection-start="652" selection-end="652" vertical-scroll-proportion="0.6115108" vertical-offset="0" max-vertical-offset="417" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/LearningModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="325" selection-end="325" vertical-scroll-proportion="30.12" vertical-offset="1008" max-vertical-offset="1545" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/testFunction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/populate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="166" max-vertical-offset="615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/Crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="128" column="0" selection-start="4683" selection-end="4683" vertical-scroll-proportion="0.0" vertical-offset="1755" max-vertical-offset="2580">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwitterAnalysis/testlog">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwitterAnalysis/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="6" selection-start="718" selection-end="718" vertical-scroll-proportion="0.38694993" vertical-offset="210" max-vertical-offset="2745">
+          <folding />
         </state>
       </provider>
     </entry>
