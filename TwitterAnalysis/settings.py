@@ -35,8 +35,8 @@ DATABASES = {
     }
 }
 
-import dj_database_url
-DATABASES['default'] = dj_database_url.config()
+# import dj_database_url
+# DATABASES['default'] = dj_database_url.config()
 
 
 # Hosts/domain names that are valid for this site; required if DEBUG is False

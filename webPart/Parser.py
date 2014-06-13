@@ -18,6 +18,9 @@ DEBUG = True
 
 
 class TweetJsonParser(object):
+    """
+        parse Json strings into the correlated dictionary
+    """
     
     def parseJsonString(self,jsonString):
         return demjson.decode(jsonString)
@@ -80,6 +83,10 @@ class TweetJsonParser(object):
 
 
 class MatrixParserForLearning:
+    """
+        this class is responsible for parsing the strings into matrix
+        and transform the matrix into svm light format
+    """
     
     def __init__(self, positiveEmoticons=":),:-),:),:D,=)",negativeEmoticons = ":(, :-(, : (" ):
         self.positiveEmoticonList = positiveEmoticons.split(',')

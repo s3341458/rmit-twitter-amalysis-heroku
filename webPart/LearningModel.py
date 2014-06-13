@@ -27,6 +27,9 @@ dictFilePath = os.path.join(fileDirectory, "data/dictionary")
 
 
 class NaiveBayesClassifierBernoulli:
+    """
+    this class capsules the Bernoulli NaiveBayes functions of scikit-learn in BernoulliNB class
+"""
     def __init__(self, matrixFileName = matrixFilePath, dicFileName = dictFilePath):
         self.X,self.Y = load_svmlight_file(matrixFileName)
         self.dictionary = pickle.load(open(dicFileName, "rb"))
@@ -55,8 +58,13 @@ class NaiveBayesClassifierBernoulli:
 #             row = self.matrixParser.getRowForClassify(string, self.dictionary)
 #             if row != None: rows.append(row)
 #             
-    
+
+
+
 class NaiveBayesClassifierBernoulliListener(StreamListener):
+    """
+    recieve the stream tweets and classify them and then store in database
+"""
     def __init__(self, matrixFileName = matrixFilePath, dictFileName = dictFilePath):
         self.naiveBayesClassifierBernoulli = NaiveBayesClassifierBernoulli(matrixFileName, dictFileName)
         self.matrixParser = Parser.MatrixParserForLearning()

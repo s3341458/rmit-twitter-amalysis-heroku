@@ -58,6 +58,10 @@ This is a basic listener that just prints received tweets to stdout.
 
 
 class FileOutListener(StreamListener):
+    """
+A listener handles tweets are the received from the stream.
+This is a basic listener that just write received tweets to file.
+"""
 
     def __init__(self, fileName):
         self.outPutFile = open(fileName,"w")
@@ -77,6 +81,12 @@ class FileOutListener(StreamListener):
 
 
 class DatabaseBaseSentimentListener(StreamListener):
+
+    """ A listener handles tweets are the received from the stream.
+This is a basic listener that just write received tweets to database.
+
+"""
+
     def __init__(self,  matrixFileName, dictName):
         
         self.classifier = NaiveBayesClassifierBernoulli(matrixFileName, dictName)
@@ -109,7 +119,7 @@ class DatabaseBaseSentimentListener(StreamListener):
                 tweetSentiment.tweetUserID = decodedJson["user"]["id"] 
                 tweetSentiment.lang = decodedJson["lang"]
                 
-                a = date(2014, 3, 15)
+                a = date(2014, 5, 28)
                 b = date.today()
                 c = b - a
                 tweetSentiment.date = c.days

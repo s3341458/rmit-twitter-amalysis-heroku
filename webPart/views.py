@@ -130,6 +130,13 @@ def TopTweets(tweets,num = 10):
     topTweets = tweets[0:num]
     returnContent = []
     for tweet in topTweets: returnContent.append(tweet.text)
+
+    logFilePath = os.path.join(fileDirectory,"data/logScore.txt")
+    logScoreFile = open(logFilePath,"at+")
+    for tweet in topTweets:
+        logScoreFile.write(repr(tweet.text) + " : " + repr(tweet.sentimentScore) + "\n" )
+    logScoreFile.close()
+
     return returnContent
 #     tweetsNum = len(tweets)
 #     i = 0

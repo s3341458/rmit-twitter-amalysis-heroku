@@ -2,6 +2,12 @@ from django.db import models
 from django.template.defaultfilters import default
 
 # Create your models here.
+"""
+    this is the schema of tables
+    please to check of the concept of object and relation mapping in order to figure out the meaning
+
+"""
+
 
 class Query(models.Model):
     searchTerm = models.TextField()
