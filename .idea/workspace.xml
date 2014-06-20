@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5eadf9fd-82d5-4c85-a689-7835c83c37c4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webPart/Crawler.py" afterPath="$PROJECT_DIR$/webPart/Crawler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webPart/LearningModel.py" afterPath="$PROJECT_DIR$/webPart/LearningModel.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webPart/Parser.py" afterPath="$PROJECT_DIR$/webPart/Parser.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webPart/models.py" afterPath="$PROJECT_DIR$/webPart/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/logScore.txt" afterPath="$PROJECT_DIR$/data/logScore.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TwitterAnalysis/settings.py" afterPath="$PROJECT_DIR$/TwitterAnalysis/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/test.json" afterPath="$PROJECT_DIR$/data/test.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testlog" afterPath="$PROJECT_DIR$/testlog" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webPart/views.py" afterPath="$PROJECT_DIR$/webPart/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="twitter_analysis_heroku.iws" />
@@ -23,6 +18,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/twitter_analysis_heroku$Test__webPart_StdOutListener_on_data.coverage" NAME="Test: webPart.StdOutListener.on_data Coverage Results" MODIFIED="1403244643672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/twitter_analysis_heroku$test_package.coverage" NAME="test package Coverage Results" MODIFIED="1399967653253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/twitter_analysis_heroku$LearningModel.coverage" NAME="LearningModel Coverage Results" MODIFIED="1399709628218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webPart" />
     <SUITE FILE_PATH="coverage/twitter_analysis_heroku$populate.coverage" NAME="populate Coverage Results" MODIFIED="1400052052690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webPart" />
@@ -39,19 +35,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LearningModel.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webPart/LearningModel.py">
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TwitterAnalysis/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="4" selection-start="611" selection-end="611" vertical-scroll-proportion="22.52" vertical-offset="983" max-vertical-offset="1665">
+            <state line="23" column="0" selection-start="482" selection-end="772" vertical-scroll-proportion="0.2877698" vertical-offset="225" max-vertical-offset="2805">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webPart/models.py">
+      <file leaf-file-name="base.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/models/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="100" selection-start="245" selection-end="245" vertical-scroll-proportion="0.32" vertical-offset="83" max-vertical-offset="840">
+            <state line="488" column="8" selection-start="21489" selection-end="21489" vertical-scroll-proportion="-277.2" vertical-offset="0" max-vertical-offset="15330">
               <folding />
             </state>
           </provider>
@@ -60,7 +56,7 @@
       <file leaf-file-name="populate.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webPart/populate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="49" selection-end="49" vertical-scroll-proportion="-3.6" vertical-offset="0" max-vertical-offset="600">
+            <state line="6" column="0" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="615">
               <folding />
             </state>
           </provider>
@@ -69,7 +65,7 @@
       <file leaf-file-name="Parser.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webPart/Parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="54" selection-start="2543" selection-end="2543" vertical-scroll-proportion="-9.6" vertical-offset="990" max-vertical-offset="5295">
+            <state line="87" column="54" selection-start="2543" selection-end="2543" vertical-scroll-proportion="0.0" vertical-offset="1305" max-vertical-offset="5370">
               <folding />
             </state>
           </provider>
@@ -78,7 +74,7 @@
       <file leaf-file-name="testFunction.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webPart/testFunction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="660">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
               <folding />
             </state>
           </provider>
@@ -87,7 +83,7 @@
       <file leaf-file-name="tests.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webPart/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="330">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
@@ -96,16 +92,16 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webPart/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="26" selection-start="4131" selection-end="4131" vertical-scroll-proportion="-36.6" vertical-offset="720" max-vertical-offset="2475">
+            <state line="119" column="26" selection-start="4131" selection-end="4131" vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="2625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="34" selection-start="974" selection-end="974" vertical-scroll-proportion="0.66009104" vertical-offset="0" max-vertical-offset="659">
+            <state line="29" column="34" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="555">
               <folding />
             </state>
           </provider>
@@ -145,13 +141,14 @@
         <option value="$PROJECT_DIR$/TwitterAnalysis/urls.py" />
         <option value="$PROJECT_DIR$/webPart/urls.py" />
         <option value="$PROJECT_DIR$/test package.py" />
-        <option value="$PROJECT_DIR$/TwitterAnalysis/settings.py" />
         <option value="$PROJECT_DIR$/webPart/views.py" />
         <option value="$PROJECT_DIR$/webPart/models.py" />
         <option value="$PROJECT_DIR$/webPart/Crawler.py" />
         <option value="$PROJECT_DIR$/webPart/LearningModel.py" />
         <option value="$PROJECT_DIR$/webPart/Parser.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/webPart/testCrawler.py" />
+        <option value="$PROJECT_DIR$/TwitterAnalysis/settings.py" />
       </list>
     </option>
   </component>
@@ -187,7 +184,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -230,12 +226,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twitter_analysis_heroku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twitter_analysis_heroku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twitter_analysis_heroku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twitter_analysis_heroku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="TwitterAnalysis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -244,13 +269,17 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../testpath" />
     <property name="FullScreen" value="false" />
     <property name="SearchEverywhereHistory" value="" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.populate">
+  <component name="RunManager" selected="Django tests.Test: webPart.StdOutListener.on_data">
     <configuration default="false" name="LearningModel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -306,6 +335,28 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/webPart/populate.py" />
       <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test: webPart.StdOutListener.on_data" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="twitter_analysis_heroku" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="webPart.StdOutListener.on_data" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
@@ -394,27 +445,7 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="twitter_analysis_heroku" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -440,7 +471,27 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="twitter_analysis_heroku" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -506,17 +557,19 @@
       <option name="customRunCommand" value="" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Django server.twitter_analysis_heroku" />
       <item index="1" class="java.lang.String" itemvalue="Python.LearningModel" />
       <item index="2" class="java.lang.String" itemvalue="Python.test package" />
       <item index="3" class="java.lang.String" itemvalue="Python.populate" />
+      <item index="4" class="java.lang.String" itemvalue="Django tests.Test: webPart.StdOutListener.on_data" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.populate" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test package" />
-        <item index="2" class="java.lang.String" itemvalue="Python.LearningModel" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Django tests.Test: webPart.StdOutListener.on_data" />
+        <item index="1" class="java.lang.String" itemvalue="Python.populate" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test package" />
+        <item index="3" class="java.lang.String" itemvalue="Python.LearningModel" />
       </list>
     </recent_temporary>
   </component>
@@ -559,15 +612,15 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -587,11 +640,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Crawler/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webPart/Crawler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="32" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="2430" />
@@ -772,33 +820,21 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1470" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TwitterAnalysis/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="28" selection-start="1312" selection-end="1312" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="2805" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TwitterAnalysis/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="28" selection-start="1341" selection-end="1341" vertical-scroll-proportion="0.6152758" vertical-offset="0" max-vertical-offset="707" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webPart/Crawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="4" selection-start="2466" selection-end="2466" vertical-scroll-proportion="-18.0" vertical-offset="615" max-vertical-offset="2535">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webPart/Parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="54" selection-start="2543" selection-end="2543" vertical-scroll-proportion="-9.6" vertical-offset="990" max-vertical-offset="5295">
+        <state line="87" column="54" selection-start="2543" selection-end="2543" vertical-scroll-proportion="0.0" vertical-offset="1305" max-vertical-offset="5370">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webPart/populate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="49" selection-end="49" vertical-scroll-proportion="-3.6" vertical-offset="0" max-vertical-offset="600">
+        <state line="6" column="0" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="615">
           <folding />
         </state>
       </provider>
@@ -819,9 +855,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webPart/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="30" selection-start="175" selection-end="175" vertical-scroll-proportion="-4.8" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
+        <state line="9" column="30" selection-start="175" selection-end="175" vertical-scroll-proportion="-4.8" vertical-offset="0" max-vertical-offset="255" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
@@ -838,30 +872,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webPart/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="26" selection-start="4131" selection-end="4131" vertical-scroll-proportion="-36.6" vertical-offset="720" max-vertical-offset="2475">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webPart/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="100" selection-start="245" selection-end="245" vertical-scroll-proportion="0.32" vertical-offset="83" max-vertical-offset="840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webPart/LearningModel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="4" selection-start="611" selection-end="611" vertical-scroll-proportion="22.52" vertical-offset="983" max-vertical-offset="1665">
+        <state line="29" column="4" selection-start="611" selection-end="611" vertical-scroll-proportion="-15.0" vertical-offset="45" max-vertical-offset="1665">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="34" selection-start="974" selection-end="974" vertical-scroll-proportion="0.66009104" vertical-offset="0" max-vertical-offset="659">
+        <state line="29" column="34" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="26" selection-start="4131" selection-end="4131" vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="2625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/django/db/models/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="488" column="8" selection-start="21489" selection-end="21489" vertical-scroll-proportion="-277.2" vertical-offset="0" max-vertical-offset="15330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="26" selection-start="1593" selection-end="1593" vertical-scroll-proportion="1.3235294" vertical-offset="0" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/Crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="37" selection-start="4880" selection-end="4880" vertical-scroll-proportion="0.66433567" vertical-offset="1545" max-vertical-offset="2535">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwitterAnalysis/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="482" selection-end="772" vertical-scroll-proportion="0.2877698" vertical-offset="225" max-vertical-offset="2805">
           <folding />
         </state>
       </provider>
